@@ -9,7 +9,6 @@ body {
 }
 
 .main-header {
-    border-bottom: 1px solid #e7e9fc;
     background: #fff;
 }
 
@@ -40,6 +39,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.main-nav.link {
     color: #2e2f42;
 }
 
@@ -52,17 +54,20 @@ body {
     font-style: normal; 
 }
 
-.main-address-links {
+.main-address.link{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.address-links {
     color: #434455;
 }
 
-.main-address-links.link:hover,
-.main-address-links.link:focus {
+.address-links.link:hover,
+.address-links.link:focus {
     color: #404bbf
 }
 
@@ -156,11 +161,6 @@ body {
     text-align: center;
     color: #434455;
 }
-
-.portfolio {
-   
-}
-
 
 .portfolio-title {
     font-family: "Roboto", sans-serif;
