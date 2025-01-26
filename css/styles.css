@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color:#fff;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
 .ul,ol {
@@ -17,10 +18,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    
-    /* line-height: 21px; */
-    line-height: 117%;
-    letter-spacing: 0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
     text-transform: uppercase;
     color: #4d5ae5;
         
@@ -49,15 +48,20 @@ body {
     color: #2e2f42;
 }
 
-.main-nav-contacts {
+.main-address {
+    font-style: normal; 
+}
+
+.social-links.link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    
-    /* line-height: 24px; */
-    line-height: 150%;
-    letter-spacing: 0.02em;
     color: #434455;
+}
+
+.social-links.link:hover,
+.social-links.link:focus {
+    color: #404bbf
 }
 
 .business{
@@ -70,8 +74,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-       
+    line-height: 1.07;   
     text-align: center;
+    letter-spacing: 0.02em;
     color: #fff;
     text-shadow: 0 4px 4px 0 rgba (0, 0, 0, 0.25);
     padding-top: 188px;
@@ -83,7 +88,10 @@ body {
 
 .main-button {
     font-family: "Roboto", sans-serif;
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
     background: #4d5ae5;
@@ -93,6 +101,11 @@ body {
     padding-left: 32px;
     padding-bottom: 16px;
     border-radius: 4px;         
+}
+
+.main-button:hover ,
+.main-button:focus {
+    background-color: #404BBF;
 }
 
 .skills-tittle {
@@ -127,6 +140,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
+    text-transform: capitalize;
     
     /* line-height: 40px; */
     line-height: 111%;
@@ -180,6 +194,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
+    text-transform: capitalize;
     
     /* line-height: 40px; */
     line-height: 111%;
@@ -229,13 +244,10 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    
-    /* line-height: 21px; */
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-        
     padding-left: 156px;
 }
 
