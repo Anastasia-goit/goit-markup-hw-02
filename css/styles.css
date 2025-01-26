@@ -39,10 +39,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .main-nav.link {
-    color: #2e2f42;
+    
 }
 
 .main-nav-link:hover,
@@ -50,24 +51,25 @@ body {
     color: #404bbf;
 }
 
-.main-address {
+.header-address {
     font-style: normal; 
 }
 
-.main-address.link{
+.main-address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.address-links {
     color: #434455;
 }
 
-.address-links.link:hover,
-.address-links.link:focus {
+.address-links {
+    
+}
+
+.main-address.link:hover,
+.main-address.link:focus {
     color: #404bbf
 }
 
