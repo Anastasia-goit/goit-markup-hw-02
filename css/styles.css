@@ -1,11 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
     color:#fff;
-    background-color:#434455;
 }
 
 .ul,ol {
     list-style-type:none ;
+}
+
+.main-header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    background: #fff;
 }
 
 .logo {
