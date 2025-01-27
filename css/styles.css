@@ -42,7 +42,7 @@ body {
     
 }
 
-.main-nav.link {
+.main-nav-link {
     color: #2e2f42;
 }
 
@@ -64,12 +64,12 @@ body {
     
 }
 
-.main-address.link {
+.main-address-link {
     color: #434455;
 }
 
-.main-address.link:hover,
-.main-address.link:focus {
+.main-address-link:hover,
+.main-address-link:focus {
     color: #404bbf
 }
 
